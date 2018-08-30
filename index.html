@@ -2,19 +2,96 @@
 
 <head>
 </head>
+<style type="text/css">
+  ul {
+    list-style-type: none;
+    display: table;
+    margin: 0 auto;
+    padding-left: 0px;
+  }
+
+  header li {
+    float: left;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  header li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+
+  }
+
+  .main {
+    height: 75%;
+    margin: 1px 1px 1px 1px;
+  }
+
+  .navbar {
+    height: 91%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    padding: 0 10px 10px 15px;
+  }
+
+
+  .content {
+    float: left;
+    padding: 0 10px 10px 10px;
+    width: 90%;
+    height: 91%;
+    margin: 0;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0
+  }
+
+  .footer-content {
+    /* height + top/bottom paddding + top/bottom border must add up to footer height */
+    padding: 8px;
+  }
+</style>
 
 <body>
-  jax edit new
-  <ul>
-    <li>This is test</li>
-    <li>This is test </li>
-    <li>This is test 2</li>
-  </ul>
-  <p>This is a test to test conflict</p>
+  <header>
+    <ul>
+      <li><a href="#">Link1</a></li>
+      <li><a href="#">Link2 </a></li>
+      <li><a href="#">Link3</a></li>
+    </ul>
+  </header>
+  <div class="main">
+    <div class="navbar">
+      <ul>
+        <li><a href="#">This is test</a></li>
+        <li><a href="#"></a>This is test </a></li>
+        <li><a href="#"></a>This is test 2</a></li>
+        <li><a href="#"></a>This is test 2</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+        more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+  </div>
+
 
   <footer>
-    <p>Posted by: Developer</p>
-    <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+    <div class="footer-content">
+      <p>Posted by: Developer</p>
+      <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+    </div>
   </footer>
 </body>
 
